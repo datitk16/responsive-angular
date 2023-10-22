@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { ReplaySubject } from 'rxjs';
 
+
+// refer https://angularindepth.com/posts/1383/responsive-angular
+
 @Injectable()
 export class MediaService {
   private matches = new ReplaySubject<boolean>(1);
